@@ -5,7 +5,8 @@
 # Ignorar pastas
 node_modules/
 dist/
-e2e/Login/demo.cy.js
-e2e/Login/saucedemo.cy.js
-e2e/Login/Teste_Api.cy.js
-e2e/Login/Teste.cy.js
+# Ignorando arquivos de teste específicos
+cypress/e2e/Login/Teste.cy.js
+cypress/e2e/Login/Teste_Api.cy.js
+cypress/e2e/Login/demo.cy.js
+cypress/e2e/Login/saucedemo.cy.js

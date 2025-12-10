@@ -1,0 +1,11 @@
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar pastas
+node_modules/
+dist/
+e2e/Login/demo.cy.js
+e2e/Login/saucedemo.cy.js
+e2e/Login/Teste_Api.cy.js
+e2e/Login/Teste.cy.js
